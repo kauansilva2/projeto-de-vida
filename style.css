@@ -73,6 +73,43 @@ border-radius: 40px 0 0 0;}
   <button class="botao">Criar projetos em Javascript</button>
   <button class="botao">Criar um portfolio</button>
   <button class="botao">Atualizar meu currículo</button>
-  
+  .abas-textos{
+      background-color: var(--texto-fundo);
+  }
+  .abas-textos{
+      background-color: var(--texto-fundo);
+      padding: 40px;
+      border-radius: 0 0 40px 40px;
+  }
+  .botao.ativo{
+      background-color: var(--botao-ativo);
+      border-bottom: 4px solid var(--verde);
+  }
+  .aba-conteudo.ativo{
+      display:block;   
+  }
+  .aba-conteudo{
+      display: none;
+  }
+  .aba-conteudo-titulo-principal{
+      font-size: 28px;
+      text-align: center;
+  }
+  .aba-conteudo-titulo-secundario{
+      text-align: center;
+      color: var(--verde);
+      text-transform: uppercase;
+  }
+  .aba-conteudo{
+      width: 100px;
+      height: 100px;
+      background: #b5b;
+      margin: 10px;
+    }
+    
+    .ativo{
+      display: block;
+    }
+    
 
     
